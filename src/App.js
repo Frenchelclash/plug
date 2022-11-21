@@ -50,7 +50,7 @@ function App() {
             </div>}
       </body>
       <footer className='footer'>
-        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src='%PUBLIC_URL%/bard.svg' alt='bard logo' /> </a>
+        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src='url(../public/bard.svg)' alt='bard logo' /> </a>
         <a href='https://pen.org/' className='footer_link'> <img className='footer_link-img' src='%PUBLIC_URL%/pen.svg' alt='bard logo' /> </a>
       </footer>
     </div>
