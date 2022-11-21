@@ -1,5 +1,6 @@
 {
   "name": "plug",
+  "homepage": "https://github.com/Frenchelclash/plug.git" ,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
