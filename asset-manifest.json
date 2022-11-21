@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Frenchelclash/plug.git/static/css/main.33c17bb4.css",
-    "main.js": "/Frenchelclash/plug.git/static/js/main.c5b4b7ad.js",
-    "static/js/787.f9aa5528.chunk.js": "/Frenchelclash/plug.git/static/js/787.f9aa5528.chunk.js",
-    "static/media/bg.png": "/Frenchelclash/plug.git/static/media/bg.d98a045eef91fd0e6d13.png",
-    "index.html": "/Frenchelclash/plug.git/index.html",
-    "static/media/arrow.svg": "/Frenchelclash/plug.git/static/media/arrow.f88aab1747bafc42f3a9.svg",
-    "main.33c17bb4.css.map": "/Frenchelclash/plug.git/static/css/main.33c17bb4.css.map",
-    "main.c5b4b7ad.js.map": "/Frenchelclash/plug.git/static/js/main.c5b4b7ad.js.map",
-    "787.f9aa5528.chunk.js.map": "/Frenchelclash/plug.git/static/js/787.f9aa5528.chunk.js.map"
+    "main.css": "/plug/static/css/main.3005ae53.css",
+    "main.js": "/plug/static/js/main.dbe5337b.js",
+    "static/js/787.f9aa5528.chunk.js": "/plug/static/js/787.f9aa5528.chunk.js",
+    "static/media/bg.png": "/plug/static/media/bg.d98a045eef91fd0e6d13.png",
+    "index.html": "/plug/index.html",
+    "static/media/arrow.svg": "/plug/static/media/arrow.f88aab1747bafc42f3a9.svg",
+    "main.3005ae53.css.map": "/plug/static/css/main.3005ae53.css.map",
+    "main.dbe5337b.js.map": "/plug/static/js/main.dbe5337b.js.map",
+    "787.f9aa5528.chunk.js.map": "/plug/static/js/787.f9aa5528.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33c17bb4.css",
-    "static/js/main.c5b4b7ad.js"
+    "static/css/main.3005ae53.css",
+    "static/js/main.dbe5337b.js"
   ]
 }
