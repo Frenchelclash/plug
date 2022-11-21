@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../public/logo.svg';
 import './App.css';
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <img className='header_logo' src='%PUBLIC_URL%/logo.svg' alt='rima logo' />
+        <img className='header_logo' src={logo} alt='rima logo' />
       </header>
       <body className='body'>
           <nav className='plug_lang-nav'>
@@ -50,7 +51,7 @@ function App() {
             </div>}
       </body>
       <footer className='footer'>
-        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src='url(../public/bard.svg)' alt='bard logo' /> </a>
+        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src='%PUBLIC_URL%/bard.svg' alt='bard logo' /> </a>
         <a href='https://pen.org/' className='footer_link'> <img className='footer_link-img' src='%PUBLIC_URL%/pen.svg' alt='bard logo' /> </a>
       </footer>
     </div>
