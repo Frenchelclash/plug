@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <img className='header_logo' src='./public/logo.svg' alt='rima logo' />
+        <img className='header_logo' src='./img/logo.svg' alt='rima logo' />
       </header>
       <body className='body'>
           <nav className='plug_lang-nav'>
@@ -50,8 +50,8 @@ function App() {
             </div>}
       </body>
       <footer className='footer'>
-        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src='./public/bard.svg' alt='bard logo' /> </a>
-        <a href='https://pen.org/' className='footer_link'> <img className='footer_link-img' src='./public/pen.svg' alt='bard logo' /> </a>
+        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src='./img/bard.svg' alt='bard logo' /> </a>
+        <a href='https://pen.org/' className='footer_link'> <img className='footer_link-img' src='./img/pen.svg' alt='bard logo' /> </a>
       </footer>
     </div>
   );

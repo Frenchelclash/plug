@@ -19,7 +19,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(./public/bg.png);
+  background-image: url(./img/bg.png);
   background-repeat: repeat-y;
   background-size: cover;
   min-height: 100vh;
@@ -468,7 +468,7 @@
 
   .plug_subscr-button-arrow {
     display: block;
-    background-image: url(./public/arrow.svg);
+    background-image: url(./img/arrow.svg);
     background-position: center;
     background-repeat:no-repeat;
     background-size: contain;
