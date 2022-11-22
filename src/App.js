@@ -45,7 +45,7 @@ function App() {
               <input className='plug_subscr-input' required placeholder={lang ? 'Введите свою почту' : 'Enter your email'} value={value} onChange={handleValue} style={{color: error && '#FF2A00', borderColor: error && '#FF2A00' }}/>
               <label className='plug_subscr-label' style={{color: error && '#FF2A00'}}>{!error ? `${lang ? 'Подпишитесь на наши обновления' : 'Subscribe to our news and updates'}` : `${lang ? 'Это не похоже на почту' : 'Doesn\'t look like email'}`}</label>
               <button type='submit' className='plug_subscr-button' >{lang ? 'Подписаться' : 'Subscribe'}</button>
-              <button type='submit' className='plug_subscr-button-arrow'></button>
+              <button type='submit' className='plug_subscr-button-arrow' style={{borderColor: error && '#FF2A00'}}></button>
           </form> }
           {!input && <div className='subscribed'>
               <div className='subscribed_check'></div>

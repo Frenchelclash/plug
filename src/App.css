@@ -4,6 +4,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #000000;
 }
 
 .app {
@@ -70,6 +71,7 @@
 }
 
 .plug_lang-nav-button {
+  color: #000000;
   font-weight: 400;
   font-size: 1.8vw;
   text-transform: uppercase;
@@ -194,6 +196,7 @@
   -webkit-transition: 0.5s all linear;
   -o-transition: 0.5s all linear;
   transition: 0.5s all linear;
+  border-radius: 0%;
 }
 
 
