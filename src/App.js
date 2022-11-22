@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
+import logo from './img/logo.svg';
+import pen from './img/pen.svg';
+import bard from './img/bard.svg';
 
 function App() {
   const [lang, setLang] = useState(true)
@@ -9,7 +12,7 @@ function App() {
   const [value, setValue] = useState('')
 
   function handleValue(e) {
-    setValue(e.target.value);
+    setValue(e.target.value.toLowerCase());
     console.log(e.target.value)
   }
 
@@ -29,7 +32,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <img className='header_logo' src='./img/logo.svg' alt='rima logo' />
+        <img className='header_logo' src={logo} alt='rima logo' />
       </header>
       <body className='body'>
           <nav className='plug_lang-nav'>
@@ -50,8 +53,8 @@ function App() {
             </div>}
       </body>
       <footer className='footer'>
-        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src='./img/bard.svg' alt='bard logo' /> </a>
-        <a href='https://pen.org/' className='footer_link'> <img className='footer_link-img' src='./img/pen.svg' alt='bard logo' /> </a>
+        <a href='https://bard.edu/' className='footer_link'> <img className='footer_link-img' src={bard} alt='bard logo' /> </a>
+        <a href='https://pen.org/' className='footer_link'> <img className='footer_link-img' src={pen} alt='bard logo' /> </a>
       </footer>
     </div>
   );
